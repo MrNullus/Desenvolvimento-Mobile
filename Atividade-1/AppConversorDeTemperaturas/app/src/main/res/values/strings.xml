@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">App Conversor De Temperaturas</string>
+    <string name="labelHint">Converter:</string>
+    <string name="hint">Digite a Temperatura</string>
+    <string name="message">Para:</string>
+
+    <!--  textos para os botões  -->
+    <string name="btCelsiusKelvin">Celsius para Kelvin</string>
+    <string name="btKelvinCelsius">Kelvin para Celsius</string>
+    <string name="btCelsiusFahre">Celsius para Fahrenheit</string>
+    <string name="btFahreCelsius">Fahrenheit para Celsius</string>
+    <string name="btKelvinFahre">Kelvin para Fahrenheit</string>
+    <string name="btFahreKelvin">Fahrenheit para Kevin</string>
+</resources>
