@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">AppParametros</string>
-    <string name="txnome">Nome</string>
-    <string name="txemail">E-mail</string>
-    <string name="btcadastra">Cadastrar</string>
-    <string name="btvolta">Voltar</string>
-</resources>

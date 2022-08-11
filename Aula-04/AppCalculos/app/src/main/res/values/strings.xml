@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">App Calculos</string>
-    <string name="hint1">Digite o primeiro valor</string>
-    <string name="hint2">Digite o segundo valor</string>
-    <string name="btsoma">Somar</string>
-</resources>
