@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">App Peso Ideal</string>
+    <string name="texto1">Selecione o gênero</string>
+    <string name="masc">Masculino</string>
+    <string name="femin">Feminino</string>
+    <string name="altura">Digite sua altura</string>
+    <string name="calcular">Calcular</string>
+    <string name="voltar">Voltar</string>
+</resources>
