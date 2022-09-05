@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Peso Ideal Com Parametros</string>
+    <string name="txt1">Selecione o gênero</string>
+    <string name="txt2">Masculino</string>
+    <string name="txt3">Feminino</string>
+    <string name="txt4">Calcular</string>
+    <string name="txt5">Digite sua altura</string>
+    <string name="txt6">Calcular</string>
+    <string name="txt7">Voltar</string>
+</resources>
