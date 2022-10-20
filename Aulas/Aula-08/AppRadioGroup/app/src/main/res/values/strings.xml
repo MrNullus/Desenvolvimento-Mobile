@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppRadioGroup</string>
+    <string name="digite">Digite seu sálario em R$</string>
+    <string name="percentual">Selecione o percentual</string>
+    <string name="r40">40%</string>
+    <string name="r45">45%</string>
+    <string name="r50">50%</string>
+    <string name="calcular">Calcular novo sálario</string>
+</resources>
