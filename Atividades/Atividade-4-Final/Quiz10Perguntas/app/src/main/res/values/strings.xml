@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Quiz 10 Perguntas</string>
+
+    <!--  Pergunta 1  -->
+    <string name="str.questao_1">Questão 01</string>
+
+    <string name="str.questao_01.resposta_a"></string>
+    <string name="str.questao_01.resposta_b"></string>
+    <string name="str.questao_01.resposta_c"></string>
+    <string name="str.questao_01.resposta_d"></string>
+    <!--  / Pergunta 1  -->
+
+    <!--   Pergunta 2  -->
+    <string name="str.questao_2">Questão 02</string>
+
+    <string name="str.questao_02.resposta_a"></string>
+    <string name="str.questao_02.resposta_b"></string>
+    <string name="str.questao_02.resposta_c"></string>
+    <string name="str.questao_02.resposta_d"></string>
+    <!--  / Pergunta 2  -->
+
+    <!--   Pergunta 3  -->
+    <string name="str.questao_3">Questão 03</string>
+
+    <string name="str.questao_03.resposta_a"></string>
+    <string name="str.questao_03.resposta_b"></string>
+    <string name="str.questao_03.resposta_c"></string>
+    <string name="str.questao_03.resposta_d"></string>
+    <!--  / Pergunta 3  -->
+
+    <!--   Pergunta 4  -->
+    <string name="str.questao_4">Questão 04</string>
+
+    <string name="str.questao_04.resposta_a"></string>
+    <string name="str.questao_04.resposta_b"></string>
+    <string name="str.questao_04.resposta_c"></string>
+    <string name="str.questao_04.resposta_d"></string>
+    <!--  / Pergunta 4  -->
+
+    <!--   Pergunta 5  -->
+    <string name="str.questao_5">Questão 05</string>
+
+    <string name="str.questao_05.resposta_a"></string>
+    <string name="str.questao_05.resposta_b"></string>
+    <string name="str.questao_05.resposta_c"></string>
+    <string name="str.questao_05.resposta_d"></string>
+    <!--  / Pergunta 5  -->
+
+    <!--   Pergunta 6  -->
+    <string name="str.questao_6">Questão 06</string>
+
+    <string name="str.questao_06.resposta_a"></string>
+    <string name="str.questao_06.resposta_b"></string>
+    <string name="str.questao_06.resposta_c"></string>
+    <string name="str.questao_06.resposta_d"></string>
+    <!--  / Pergunta 6  -->
+
+    <!--   Pergunta 7  -->
+    <string name="str.questao_7">Questão 07</string>
+
+    <string name="str.questao_07.resposta_a"></string>
+    <string name="str.questao_07.resposta_b"></string>
+    <string name="str.questao_07.resposta_c"></string>
+    <string name="str.questao_07.resposta_d"></string>
+    <!--  / Pergunta 7  -->
+
+    <!--   Pergunta 8  -->
+    <string name="str.questao_8">Questão 08</string>
+
+    <string name="str.quest_08.resposta_a"></string>
+    <string name="str.quest_08.resposta_b"></string>
+    <string name="str.quest_08.resposta_c"></string>
+    <string name="str.quest_08.resposta_d"></string>
+    <!--  / Pergunta 8  -->
+
+    <!--   Pergunta 9  -->
+    <string name="str.questao_9">Questão 09</string>
+
+    <string name="str.questao_09.resposta_a"></string>
+    <string name="str.questao_09.resposta_b"></string>
+    <string name="str.questao_09.resposta_c"></string>
+    <string name="str.questao_09.resposta_d"></string>
+    <!--  / Pergunta 9  -->
+
+    <!--   Pergunta 10  -->
+    <string name="str.questao_10">Questão 10</string>
+
+    <string name="str.questao_10.resposta_a"></string>
+    <string name="str.questao_10.resposta_b"></string>
+    <string name="str.questao_10.resposta_c"></string>
+    <string name="str.questao_10.resposta_d"></string>
+    <!--  / Pergunta 10  -->
+
+</resources>
