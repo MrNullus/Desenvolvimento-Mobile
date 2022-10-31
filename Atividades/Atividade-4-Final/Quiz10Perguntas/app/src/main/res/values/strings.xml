@@ -1,6 +1,14 @@
 <resources>
     <string name="app_name">Quiz 10 Perguntas</string>
 
+    <!-- Comuns -->
+    <string name="str.bem_vindo">Bem vindo, ao meu Quiz!</string>
+    <string name="str.instrucao_1">Para começarmos, digite seu lindo nome:</string>
+    <string name="str.btn_iniciar">Start!</string>
+    <string name="str.hint.edt_nome">Tafarel</string>
+    <!-- / Comuns -->
+
+
     <!--  Pergunta 1  -->
     <string name="str.questao_1">Questão 01</string>
 
