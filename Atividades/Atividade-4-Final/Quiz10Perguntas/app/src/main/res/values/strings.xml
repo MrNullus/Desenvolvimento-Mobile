@@ -5,98 +5,99 @@
     <string name="str.bem_vindo">Bem vindo, ao meu Quiz!</string>
     <string name="str.instrucao_1">Para começarmos, digite seu lindo nome:</string>
     <string name="str.btn_iniciar">Start!</string>
+    <string name="str.btn_avancar">&gt;&gt;</string>
     <string name="str.hint.edt_nome">Tafarel</string>
+
     <!-- / Comuns -->
 
-
     <!--  Pergunta 1  -->
-    <string name="str.questao_1">Questão 01</string>
+    <string name="str.questao_01">Questão 01 - O Sol é de que cor?</string>
 
-    <string name="str.questao_01.resposta_a"></string>
-    <string name="str.questao_01.resposta_b"></string>
-    <string name="str.questao_01.resposta_c"></string>
-    <string name="str.questao_01.resposta_d"></string>
+    <string name="str.questao_01.resposta_a">Lilas</string>
+    <string name="str.questao_01.resposta_b">Amarelo</string>
+    <string name="str.questao_01.resposta_c">Branco</string>
+    <string name="str.questao_01.resposta_d">Vermelho</string>
     <!--  / Pergunta 1  -->
 
     <!--   Pergunta 2  -->
-    <string name="str.questao_2">Questão 02</string>
+    <string name="str.questao_02">Questão 02 - O Saci tem quantas pernas?</string>
 
-    <string name="str.questao_02.resposta_a"></string>
-    <string name="str.questao_02.resposta_b"></string>
-    <string name="str.questao_02.resposta_c"></string>
-    <string name="str.questao_02.resposta_d"></string>
+    <string name="str.questao_02.resposta_a">1 e meia</string>
+    <string name="str.questao_02.resposta_b">1</string>
+    <string name="str.questao_02.resposta_c">2</string>
+    <string name="str.questao_02.resposta_d">3</string>
     <!--  / Pergunta 2  -->
 
     <!--   Pergunta 3  -->
-    <string name="str.questao_3">Questão 03</string>
+    <string name="str.questao_03">Questão 03 - Quem criou a Microsoft?</string>
 
-    <string name="str.questao_03.resposta_a"></string>
-    <string name="str.questao_03.resposta_b"></string>
-    <string name="str.questao_03.resposta_c"></string>
-    <string name="str.questao_03.resposta_d"></string>
+    <string name="str.questao_03.resposta_a">Markinhos Zeca</string>
+    <string name="str.questao_03.resposta_b">Stefano Jobs</string>
+    <string name="str.questao_03.resposta_c">Taffareel e Ronaldo Fenômeno depois que venceu do Vasco</string>
+    <string name="str.questao_03.resposta_d">Bill Gates e Paul Alen</string>
     <!--  / Pergunta 3  -->
 
     <!--   Pergunta 4  -->
-    <string name="str.questao_4">Questão 04</string>
+    <string name="str.questao_04">Questão 04 - Quem roubou nosso ouro?</string>
 
-    <string name="str.questao_04.resposta_a"></string>
-    <string name="str.questao_04.resposta_b"></string>
-    <string name="str.questao_04.resposta_c"></string>
-    <string name="str.questao_04.resposta_d"></string>
+    <string name="str.questao_04.resposta_a">Ingleses</string>
+    <string name="str.questao_04.resposta_b">Argentinos</string>
+    <string name="str.questao_04.resposta_c">Portugas</string>
+    <string name="str.questao_04.resposta_d">Vai saber</string>
     <!--  / Pergunta 4  -->
 
     <!--   Pergunta 5  -->
-    <string name="str.questao_5">Questão 05</string>
+    <string name="str.questao_05">Questão 05 - Se superbonde cola tudo, então porque não cola a tampa?</string>
 
-    <string name="str.questao_05.resposta_a"></string>
-    <string name="str.questao_05.resposta_b"></string>
-    <string name="str.questao_05.resposta_c"></string>
-    <string name="str.questao_05.resposta_d"></string>
+    <string name="str.questao_05.resposta_a">Sim</string>
+    <string name="str.questao_05.resposta_b">Não sei</string>
+    <string name="str.questao_05.resposta_c">Pergunta lá no Posto Ibiranga</string>
+    <string name="str.questao_05.resposta_d">Porque dentro do recipiente não há umidade</string>
     <!--  / Pergunta 5  -->
 
     <!--   Pergunta 6  -->
-    <string name="str.questao_6">Questão 06</string>
+    <string name="str.questao_06">Questão 06 - De onde é a invenção do chuveiro elétrico?</string>
 
-    <string name="str.questao_06.resposta_a"></string>
-    <string name="str.questao_06.resposta_b"></string>
-    <string name="str.questao_06.resposta_c"></string>
-    <string name="str.questao_06.resposta_d"></string>
+    <string name="str.questao_06.resposta_a">Brasil</string>
+    <string name="str.questao_06.resposta_b">Alemanha</string>
+    <string name="str.questao_06.resposta_c">Gana</string>
+    <string name="str.questao_06.resposta_d">Portugal</string>
     <!--  / Pergunta 6  -->
 
     <!--   Pergunta 7  -->
-    <string name="str.questao_7">Questão 07</string>
+    <string name="str.questao_07">Questão 07 - Quanto tempo a luz do Sol demora para chegar à Terra?</string>
 
-    <string name="str.questao_07.resposta_a"></string>
-    <string name="str.questao_07.resposta_b"></string>
-    <string name="str.questao_07.resposta_c"></string>
-    <string name="str.questao_07.resposta_d"></string>
+    <string name="str.questao_07.resposta_a">1h</string>
+    <string name="str.questao_07.resposta_b">2 anos</string>
+    <string name="str.questao_07.resposta_c">8min</string>
+    <string name="str.questao_07.resposta_d">5s e um terço de reza</string>
     <!--  / Pergunta 7  -->
 
     <!--   Pergunta 8  -->
-    <string name="str.questao_8">Questão 08</string>
+    <string name="str.questao_08">Questão 08 - Qual o livro mais vendido no mundo depois da Bíblia?</string>
 
-    <string name="str.quest_08.resposta_a"></string>
-    <string name="str.quest_08.resposta_b"></string>
-    <string name="str.quest_08.resposta_c"></string>
-    <string name="str.quest_08.resposta_d"></string>
+    <string name="str.quest_08.resposta_a">Dom Quixote</string>
+    <string name="str.quest_08.resposta_b">Senhor dos Aneis</string>
+    <string name="str.quest_08.resposta_c">Biblia</string>
+    <string name="str.quest_08.resposta_d">One Piece</string>
     <!--  / Pergunta 8  -->
 
     <!--   Pergunta 9  -->
-    <string name="str.questao_9">Questão 09</string>
+    <string name="str.questao_09">Questão 09 - Quem é Alan Turing?</string>
 
-    <string name="str.questao_09.resposta_a"></string>
-    <string name="str.questao_09.resposta_b"></string>
-    <string name="str.questao_09.resposta_c"></string>
-    <string name="str.questao_09.resposta_d"></string>
+    <string name="str.questao_09.resposta_a">O carinha que mora logo ali</string>
+    <string name="str.questao_09.resposta_b">O grande calvo as 15</string>
+    <string name="str.questao_09.resposta_c">Pai do Renan</string>
+    <string name="str.questao_09.resposta_d">Pai da Computação</string>
     <!--  / Pergunta 9  -->
 
     <!--   Pergunta 10  -->
-    <string name="str.questao_10">Questão 10</string>
+    <string name="str.questao_10">Questão 10 - Complete a frase: "Quando estiver vendo TV, eu vou estar lá..."</string>
 
-    <string name="str.questao_10.resposta_a"></string>
-    <string name="str.questao_10.resposta_b"></string>
-    <string name="str.questao_10.resposta_c"></string>
-    <string name="str.questao_10.resposta_d"></string>
+    <string name="str.questao_10.resposta_a">"Se eu não comprar nada, o desconto é bem maior"</string>
+    <string name="str.questao_10.resposta_b">"e essa fanta é Doly"</string>
+    <string name="str.questao_10.resposta_c">"Quando estiver sonhando, eu vou estar lá.”</string>
+    <string name="str.questao_10.resposta_d">"Goku sola"</string>
     <!--  / Pergunta 10  -->
 
 </resources>

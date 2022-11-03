@@ -139,7 +139,7 @@ Complete a frase: "Quando estiver vendo TV, eu vou estar lá..."
 
 [] "e essa fanta é Doly"
 
-[X]  "Quando estiver sonhando, eu vou estar lá.”
+[X] "Quando estiver sonhando, eu vou estar lá.”
 
 [] "Goku sola"
 

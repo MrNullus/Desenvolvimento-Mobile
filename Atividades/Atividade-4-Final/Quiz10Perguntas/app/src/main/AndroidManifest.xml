@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="gustavo.henrique.etec.com.quiz10perguntas">
+    package="com.example.quiz10perguntas">
 
     <application
         android:allowBackup="true"
@@ -9,6 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Quiz10Perguntas">
+        <activity
+            android:name=".TelaPergunta5"
+            android:exported="false" />
+        <activity
+            android:name=".TelaPergunta4"
+            android:exported="false" />
+        <activity
+            android:name=".TelaPergunta3"
+            android:exported="false" />
+        <activity
+            android:name=".TelaPergunta2"
+            android:exported="false" />
+        <activity
+            android:name=".TelaPergunta1"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
