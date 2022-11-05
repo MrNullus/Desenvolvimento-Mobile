@@ -7,7 +7,7 @@
     tools:context=".TelaPergunta3">
 
     <RadioGroup
-        android:id="@+id/radioGroup"
+        android:id="@+id/rgpPergunta3"
         android:layout_width="328dp"
         android:layout_height="253dp"
         app:layout_constraintEnd_toEndOf="parent"

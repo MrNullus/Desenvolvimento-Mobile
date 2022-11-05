@@ -29,7 +29,7 @@
         app:layout_constraintVertical_bias="0.957" />
 
     <RadioGroup
-        android:id="@+id/radioGroup"
+        android:id="@+id/rgpPergunta2"
         android:layout_width="327dp"
         android:layout_height="254dp"
         app:layout_constraintEnd_toEndOf="parent"
