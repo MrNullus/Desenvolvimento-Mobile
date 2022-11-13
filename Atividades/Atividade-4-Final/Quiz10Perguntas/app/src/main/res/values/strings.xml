@@ -7,9 +7,13 @@
     <string name="str.btn_iniciar">Start!</string>
     <string name="str.btn_avancar">&gt;&gt;</string>
     <string name="str.hint.edt_nome">Tafarel</string>
-
+    <string name="str.hint.edt_pontuacao">Pontuação...</string>
+    <string name="str.mensagem_final">Parabéns, por chegar até aqui, isso prova muita coisa!</string>
+    <string name="str.mensagem_pontuacao">Confira sua pontuação:</string>
     <!-- / Comuns -->
 
+
+    <!--@           Perguntas     @-->
     <!--  Pergunta 1  -->
     <string name="str.questao_01">Questão 01 - O Sol é de que cor?</string>
 

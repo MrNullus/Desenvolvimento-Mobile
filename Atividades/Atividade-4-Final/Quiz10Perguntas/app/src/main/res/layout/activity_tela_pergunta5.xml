@@ -63,7 +63,7 @@
         android:layout_width="319dp"
         android:layout_height="49dp"
         android:text="@string/str.questao_05"
-        app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+        app:layout_constraintBottom_toTopOf="@+id/rgpPergunta5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.423"
         app:layout_constraintStart_toStartOf="parent"

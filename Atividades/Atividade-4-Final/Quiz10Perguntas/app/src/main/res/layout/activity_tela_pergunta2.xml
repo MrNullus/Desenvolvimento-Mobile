@@ -62,7 +62,7 @@
             android:text="@string/str.questao_02.resposta_d" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btnAvancar"
             android:layout_width="match_parent"
             android:layout_height="62dp"
             android:text="@string/str.btn_avancar" />

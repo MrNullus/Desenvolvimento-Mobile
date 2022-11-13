@@ -4,67 +4,69 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TelaPergunta3">
+    tools:context=".TelaPergunta8">
 
     <RadioGroup
-        android:id="@+id/rgpPergunta3"
-        android:layout_width="328dp"
-        android:layout_height="253dp"
+        android:id="@+id/rgpPergunta8"
+        android:layout_width="319dp"
+        android:layout_height="251dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintHorizontal_bias="0.423"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="351dp">
+        tools:layout_editor_absoluteY="356dp">
 
         <RadioButton
-            android:id="@+id/rdbQuestao05RespostaA"
+            android:id="@+id/rdbQuestao08RespostaA"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/str.questao_03.resposta_a" />
+            android:text="@string/str.questao_08.resposta_a" />
 
         <RadioButton
-            android:id="@+id/rdbQuestao05RespostaB"
+            android:id="@+id/rdbQuestao08RespostaB"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/str.questao_03.resposta_b" />
+            android:text="@string/str.questao_08.resposta_b" />
 
         <RadioButton
-            android:id="@+id/rdbQuestao05RespostaC"
+            android:id="@+id/rdbQuestao08RespostaC"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/str.questao_03.resposta_c" />
+            android:text="@string/str.questao_08.resposta_c" />
 
         <RadioButton
-            android:id="@+id/rdbQuestao05RespostaD"
+            android:id="@+id/rdbQuestao08RespostaD"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/str.questao_04.resposta_d" />
+            android:text="@string/str.questao_08.resposta_d" />
 
         <Button
             android:id="@+id/btnAvancar"
             android:layout_width="match_parent"
             android:layout_height="62dp"
             android:text="@string/str.btn_avancar" />
+
     </RadioGroup>
 
     <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="327dp"
-        android:layout_height="188dp"
-        android:layout_marginTop="108dp"
-        android:layout_marginEnd="28dp"
+        android:id="@+id/imageView9"
+        android:layout_width="398dp"
+        android:layout_height="211dp"
+        android:layout_marginTop="44dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/pergunta_3" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/str.questao_03"
-        app:layout_constraintBottom_toTopOf="@+id/rgpPergunta3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.264"
+        app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.957" />
+        app:srcCompat="@drawable/pergunta_8" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="319dp"
+        android:layout_height="49dp"
+        android:text="@string/str.questao_08"
+        app:layout_constraintBottom_toTopOf="@+id/rgpPergunta8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.423"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.944" />
 </androidx.constraintlayout.widget.ConstraintLayout>

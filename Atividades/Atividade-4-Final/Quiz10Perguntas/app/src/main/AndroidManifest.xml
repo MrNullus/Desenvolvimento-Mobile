@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Quiz10Perguntas">
         <activity
+            android:name=".TelaPontuacaoFinal"
+            android:exported="false" />
+        <activity
+            android:name=".TelaPergunta10"
+            android:exported="false" />
+        <activity
+            android:name=".TelaPergunta9"
+            android:exported="false" />
+        <activity
+            android:name=".TelaPergunta8"
+            android:exported="false" />
+        <activity
             android:name=".TelaPergunta7"
             android:exported="false" />
         <activity

@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class TelaPergunta7 extends AppCompatActivity {
+public class TelaPontuacaoFinal extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tela_pergunta7);
+        setContentView(R.layout.activity_tela_pontuacao_final);
     }
 }
