@@ -16,25 +16,25 @@
         tools:layout_editor_absoluteY="351dp">
 
         <RadioButton
-            android:id="@+id/rdbQuestao05RespostaA"
+            android:id="@+id/rdbQuestao01RespostaA"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/str.questao_03.resposta_a" />
 
         <RadioButton
-            android:id="@+id/rdbQuestao05RespostaB"
+            android:id="@+id/rdbQuestao01RespostaB"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/str.questao_03.resposta_b" />
 
         <RadioButton
-            android:id="@+id/rdbQuestao05RespostaC"
+            android:id="@+id/rdbQuestao01RespostaC"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/str.questao_03.resposta_c" />
 
         <RadioButton
-            android:id="@+id/rdbQuestao05RespostaD"
+            android:id="@+id/rdbQuestao01RespostaD"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/str.questao_04.resposta_d" />

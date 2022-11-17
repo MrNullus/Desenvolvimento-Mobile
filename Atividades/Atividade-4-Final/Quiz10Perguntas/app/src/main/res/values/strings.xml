@@ -5,6 +5,7 @@
     <string name="str.bem_vindo">Bem vindo, ao meu Quiz!</string>
     <string name="str.instrucao_1">Para começarmos, digite seu lindo nome:</string>
     <string name="str.btn_iniciar">Start!</string>
+    <string name="str.btn_restart">Restart!</string>
     <string name="str.btn_avancar">&gt;&gt;</string>
     <string name="str.hint.edt_nome">Tafarel</string>
     <string name="str.hint.edt_pontuacao">Pontuação...</string>
@@ -80,10 +81,10 @@
     <!--   Pergunta 8  -->
     <string name="str.questao_08">Questão 08 - Qual o livro mais vendido no mundo depois da Bíblia?</string>
 
-    <string name="str.quest_08.resposta_a">Dom Quixote</string>
-    <string name="str.quest_08.resposta_b">Senhor dos Aneis</string>
-    <string name="str.quest_08.resposta_c">Biblia</string>
-    <string name="str.quest_08.resposta_d">One Piece</string>
+    <string name="str.questao_08.resposta_a">Dom Quixote</string>
+    <string name="str.questao_08.resposta_b">Senhor dos Aneis</string>
+    <string name="str.questao_08.resposta_c">Biblia</string>
+    <string name="str.questao_08.resposta_d">One Piece</string>
     <!--  / Pergunta 8  -->
 
     <!--   Pergunta 9  -->
