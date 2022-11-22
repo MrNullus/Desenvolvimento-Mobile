@@ -13,6 +13,7 @@ import com.google.android.material.progressindicator.LinearProgressIndicator;
 public class MainActivity extends AppCompatActivity {
 
     Funcoes func = new Funcoes();
+    
     EditText edtNome;
     Button btnIniciar;
 
@@ -30,24 +31,25 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                if (edtNome.getText().toString().isEmpty()) {
+                if (func.pegarTextoDaEdt(edtNome).isEmpty()) {
+                    
                     edtNome.setError("O campo nome é obrigatório!");
                     edtNome.requestFocus();
+                    
                 } else {
+                    
                     Intent telaPergunta1  = new Intent(MainActivity.this, TelaPergunta1.class);
-                    String nomeUsuario = edtNome.getText().toString();
-
-                    telaPergunta1.putExtra("nome_usuario", nomeUsuario);
+                    String nome = func.pegarTextoDaEdt(edtNome);
+                    
+                    Jogador jogador = new Jogador(nome, 0);
+                    telaPergunta1.putExtra("jogador", jogador);
 
                     func.irPara(
                         MainActivity.this,
                         TelaPergunta1.class,
-                        "nome-usuario",
-                        nomeUsuario
+                        jogador
                     );
-
-
-                    startActivity(telaPergunta1);    
+                    
                 }
             }
 

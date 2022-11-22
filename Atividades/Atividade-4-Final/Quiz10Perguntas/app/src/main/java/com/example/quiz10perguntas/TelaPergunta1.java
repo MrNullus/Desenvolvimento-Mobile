@@ -11,6 +11,7 @@ import android.widget.RadioGroup;
 public class TelaPergunta1 extends AppCompatActivity {
 
     Funcoes func = new Funcoes();
+    
     RadioGroup rgpPergunta1;
     Button btnAvancar;
 
@@ -26,27 +27,27 @@ public class TelaPergunta1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                int acertos = 0;
+                Jogador jogador = getIntent().getExtras().getParcelable("jogador");
+                
                 int respostaCorreta = R.id.rdbQuestao01RespostaC;
                 int opcaoSelecionada = rgpPergunta1.getCheckedRadioButtonId();
 
                 if (opcaoSelecionada == respostaCorreta) {
-                    acertos++;
-
-                    //Intent telaPergunta2 = new Intent(TelaPergunta1.this, TelaPergunta2.class);
-                    //telaPergunta2.putExtra("acertos", acertos);
-                    //startActivity(telaPergunta2);
-                }
-
-                String parametro = Integer.toString(acertos);
-
-                func.irPara(
+                    jogador.setAcertos(1);
+                    
+                    func.irPara(
                         TelaPergunta1.this,
                         TelaPergunta2.class,
-                        "acertos",
-                        parametro
-                );
-
+                        jogador
+                    );
+                } else {
+                    func.irPara(
+                        TelaPergunta1.this,
+                        TelaPergunta2.class,
+                        jogador
+                    );
+                }
+                
             }
         });
 
