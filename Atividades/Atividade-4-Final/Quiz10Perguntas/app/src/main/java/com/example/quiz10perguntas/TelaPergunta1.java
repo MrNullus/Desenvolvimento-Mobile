@@ -21,7 +21,7 @@ public class TelaPergunta1 extends AppCompatActivity {
         setContentView(R.layout.activity_tela_pergunta1);
 
         rgpPergunta1 = findViewById(R.id.rgpPergunta1);
-        btnAvancar = findViewById(R.id.btnAvancar);
+        btnAvancar   = findViewById(R.id.btnAvancar);
 
         btnAvancar.setOnClickListener(new View.OnClickListener() {
             @Override
