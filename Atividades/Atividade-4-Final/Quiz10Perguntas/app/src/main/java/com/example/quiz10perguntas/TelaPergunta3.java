@@ -29,23 +29,21 @@ public class TelaPergunta3 extends AppCompatActivity {
 
                 Jogador jogador = getIntent().getExtras().getParcelable("jogador");
                 
-                int respostaCorreta = R.id.rdbQuestao03RespostaD;
+                int respostaCorreta = R.id.rdbQuestao03RespostaA;
                 int opcaoSelecionada = rgpPergunta3.getCheckedRadioButtonId();
 
                 if (opcaoSelecionada == respostaCorreta) {
                     jogador.setAcertos(1);
-                    
-                    func.irPara(
-                        TelaPergunta3.this,
-                        TelaPergunta4.class,
-                        jogador
-                    );
+
+                    Intent telaPergunta4 = new Intent(TelaPergunta3.this, TelaPergunta4.class);
+                    telaPergunta4.putExtra("jogador", jogador);
+
+                    startActivity(telaPergunta4);
                 } else {
-                    func.irPara(
-                        TelaPergunta3.this,
-                        TelaPergunta4.class,
-                        jogador
-                    );
+                    Intent telaPergunta4 = new Intent(TelaPergunta3.this, TelaPergunta4.class);
+                    telaPergunta4.putExtra("jogador", jogador);
+
+                    startActivity(telaPergunta4);
                 }
                 
             }

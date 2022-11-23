@@ -7,13 +7,15 @@ import android.view.View;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import com.google.android.material.progressindicator.LinearProgressIndicator;
 
 public class MainActivity extends AppCompatActivity {
 
     Funcoes func = new Funcoes();
-    
+
+    TextView txt;
     EditText edtNome;
     Button btnIniciar;
 
@@ -24,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
         edtNome    = findViewById(R.id.edtNome);
         btnIniciar = findViewById(R.id.btnIniciar);
-
+        txt        = findViewById(R.id.textView2);
 
         btnIniciar.setOnClickListener(new View.OnClickListener() {
 
@@ -37,16 +39,16 @@ public class MainActivity extends AppCompatActivity {
                     edtNome.requestFocus();
 
                 } else {
-                    String nome = func.pegarTextoDaEdt(edtNome);
 
+                    String nome = func.pegarTextoDaEdt(edtNome);
                     Jogador jogador = new Jogador(nome, 0);
 
-                    func.irPara(
-                        MainActivity.this,
-                        TelaPergunta1.class,
-                        jogador
-                    );
+                    txt.setText(jogador.getNome() + jogador.getAcertos());
 
+                    Intent telaPergunta1 = new Intent(MainActivity.this, TelaPergunta1.class);
+                    telaPergunta1.putExtra("jogador", jogador);
+
+                    startActivity(telaPergunta1);
                 }
             }
 

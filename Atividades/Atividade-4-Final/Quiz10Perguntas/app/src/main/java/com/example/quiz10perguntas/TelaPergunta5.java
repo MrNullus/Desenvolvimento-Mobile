@@ -34,18 +34,16 @@ public class TelaPergunta5 extends AppCompatActivity {
 
                 if (opcaoSelecionada == respostaCorreta) {
                     jogador.setAcertos(1);
-                    
-                    func.irPara(
-                        TelaPergunta5.this,
-                        TelaPergunta6.class,
-                        jogador
-                    );
+
+                    Intent telaPergunta6 = new Intent(TelaPergunta5.this, TelaPergunta6.class);
+                    telaPergunta6.putExtra("jogador", jogador);
+
+                    startActivity(telaPergunta6);
                 } else {
-                    func.irPara(
-                        TelaPergunta5.this,
-                        TelaPergunta6.class,
-                        jogador
-                    );
+                    Intent telaPergunta6 = new Intent(TelaPergunta5.this, TelaPergunta6.class);
+                    telaPergunta6.putExtra("jogador", jogador);
+
+                    startActivity(telaPergunta6);
                 }
                 
             }

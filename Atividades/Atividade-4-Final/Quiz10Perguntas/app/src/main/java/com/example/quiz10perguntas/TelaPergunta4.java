@@ -33,23 +33,17 @@ public class TelaPergunta4 extends AppCompatActivity {
                 int opcaoSelecionada = rgpPergunta4.getCheckedRadioButtonId();
 
                 if (opcaoSelecionada == respostaCorreta) {
-                    
                     jogador.setAcertos(1);
-                    
-                    func.irPara(
-                        TelaPergunta4.this,
-                        TelaPergunta5.class,
-                        jogador
-                    );
-                    
+
+                    Intent telaPergunta5 = new Intent(TelaPergunta4.this, TelaPergunta5.class);
+                    telaPergunta5.putExtra("jogador", jogador);
+
+                    startActivity(telaPergunta5);
                 } else {
-                    
-                    func.irPara(
-                        TelaPergunta4.this,
-                        TelaPergunta5.class,
-                        jogador
-                    );
-                    
+                    Intent telaPergunta5 = new Intent(TelaPergunta4.this, TelaPergunta5.class);
+                    telaPergunta5.putExtra("jogador", jogador);
+
+                    startActivity(telaPergunta5);
                 }
                 
             }
