@@ -23,8 +23,8 @@ public class TelaPergunta6 extends AppCompatActivity {
         setContentView(R.layout.activity_tela_pergunta6);
 
         txtNomeJogador = findViewById(R.id.txtNomeJogador);
-        rgpPergunta6 = findViewById(R.id.rgpPergunta6);
-        btnAvancar   = findViewById(R.id.btnAvancar);
+        rgpPergunta6   = findViewById(R.id.rgpPergunta6);
+        btnAvancar     = findViewById(R.id.btnAvancar);
 
         Jogador jogador = getIntent().getExtras().getParcelable("jogador");
         txtNomeJogador.setText(jogador.getNome());
@@ -36,7 +36,7 @@ public class TelaPergunta6 extends AppCompatActivity {
 
                 Jogador jogador = getIntent().getExtras().getParcelable("jogador");
 
-                int respostaCorreta = func.obterRespostaCorreta("questao-06");
+                int respostaCorreta  = func.obterRespostaCorreta("questao-06");
                 int opcaoSelecionada = rgpPergunta6.getCheckedRadioButtonId();
 
                 if (respostaCorreta != -1) {
