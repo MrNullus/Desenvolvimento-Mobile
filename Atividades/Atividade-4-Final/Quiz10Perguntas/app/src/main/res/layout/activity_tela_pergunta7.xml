@@ -7,14 +7,37 @@
     android:layout_height="match_parent"
     tools:context=".TelaPergunta6">
 
+    <TextView
+        android:id="@+id/txtNomeJogador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="TextView"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.849"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="312dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNomeJogador"
+        app:srcCompat="@drawable/pergunta_7" />
+
     <RadioGroup
         android:id="@+id/rgpPergunta7"
         android:layout_width="319dp"
         android:layout_height="251dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.423"
+        app:layout_constraintHorizontal_bias="0.391"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="356dp">
+        tools:layout_editor_absoluteY="386dp">
 
         <RadioButton
             android:id="@+id/rdbQuestao07RespostaA"
@@ -50,17 +73,6 @@
 
     </RadioGroup>
 
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="398dp"
-        android:layout_height="211dp"
-        android:layout_marginTop="44dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.461"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/pergunta_7" />
-
     <TextView
         android:id="@+id/textView8"
         android:layout_width="319dp"
@@ -68,8 +80,9 @@
         android:text="@string/str.questao_07"
         app:layout_constraintBottom_toTopOf="@+id/rgpPergunta7"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.423"
+        app:layout_constraintHorizontal_bias="0.391"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.944" />
+        app:layout_constraintVertical_bias="0.94" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

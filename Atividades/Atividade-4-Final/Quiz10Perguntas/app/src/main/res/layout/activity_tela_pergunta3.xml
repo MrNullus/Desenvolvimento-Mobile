@@ -7,24 +7,24 @@
     android:layout_height="match_parent"
     tools:context=".TelaPergunta3">
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="@string/str.questao_03"
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="290dp"
+        android:layout_height="153dp"
+        android:layout_marginTop="44dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.278"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+        app:layout_constraintTop_toBottomOf="@+id/txtNomeJogador"
+        app:srcCompat="@drawable/pergunta_3" />
 
     <RadioGroup
         android:id="@+id/rgpPergunta3"
         android:layout_width="328dp"
         android:layout_height="253dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.59"
+        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5">
 
@@ -50,7 +50,7 @@
             android:id="@+id/rdbQuestao03RespostaD"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/str.questao_04.resposta_d" />
+            android:text="@string/str.questao_03.resposta_d" />
 
         <Button
             android:id="@+id/btnAvancar"
@@ -61,14 +61,27 @@
             app:backgroundTint="@color/yellow" />
     </RadioGroup>
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="327dp"
-        android:layout_height="188dp"
-        android:layout_marginTop="108dp"
-        android:layout_marginEnd="28dp"
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/str.questao_03"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/pergunta_3" />
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/txtNomeJogador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="TextView"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.883"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

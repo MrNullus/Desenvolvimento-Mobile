@@ -7,11 +7,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RadioGroup;
+import android.widget.TextView;
 
 public class TelaPergunta5 extends AppCompatActivity {
 
     Funcoes func = new Funcoes();
-    
+
+    TextView txtNomeJogador;
     RadioGroup rgpPergunta5;
     Button btnAvancar;
 
@@ -19,33 +21,26 @@ public class TelaPergunta5 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_pergunta5);
-        
+
+        txtNomeJogador = findViewById(R.id.txtNomeJogador);
         rgpPergunta5 = findViewById(R.id.rgpPergunta5);
         btnAvancar   = findViewById(R.id.btnAvancar);
-        
+
+        Jogador jogador = getIntent().getExtras().getParcelable("jogador");
+        txtNomeJogador.setText(jogador.getNome());
+
+
         btnAvancar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                Jogador jogador = getIntent().getExtras().getParcelable("jogador");
-                
-                int respostaCorreta = R.id.rdbQuestao05RespostaD;
+                int respostaCorreta = func.obterRespostaCorreta("questao-05");
                 int opcaoSelecionada = rgpPergunta5.getCheckedRadioButtonId();
 
                 if (opcaoSelecionada == respostaCorreta) {
                     jogador.setAcertos(1);
-
-                    Intent telaPergunta6 = new Intent(TelaPergunta5.this, TelaPergunta6.class);
-                    telaPergunta6.putExtra("jogador", jogador);
-
-                    startActivity(telaPergunta6);
-                } else {
-                    Intent telaPergunta6 = new Intent(TelaPergunta5.this, TelaPergunta6.class);
-                    telaPergunta6.putExtra("jogador", jogador);
-
-                    startActivity(telaPergunta6);
                 }
-                
+
+                func.irPara(TelaPergunta5.this, TelaPergunta6.class, jogador);
             }
         });
         

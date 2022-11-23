@@ -15,47 +15,40 @@ public class TelaPergunta1 extends AppCompatActivity {
     
     RadioGroup rgpPergunta1;
     Button btnAvancar;
-    TextView txt;
+    TextView txtNomeJogador;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_pergunta1);
 
+        txtNomeJogador = findViewById(R.id.txtNomeJogador);
+        rgpPergunta1   = findViewById(R.id.rgpPergunta1);
+        btnAvancar     = findViewById(R.id.btnAvancar);
+
+        Jogador jogador = getIntent().getExtras().getParcelable("jogador");
+        txtNomeJogador.setText(jogador.getNome());
         /*
         * TODO:
-        *  Fazer com que tenha uma plain text que receba o nome do jogador
-        *  vindo do objeto Jogador
+        *  - Validar se o usuario pressionou algum radio button, para só então ir para outra telau sando
+        *  if (respostaCorreta != -1)
         * */
-
-        rgpPergunta1 = findViewById(R.id.rgpPergunta1);
-        btnAvancar   = findViewById(R.id.btnAvancar);
-        txt          = findViewById(R.id.textView3);
 
         btnAvancar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                Jogador jogador = getIntent().getExtras().getParcelable("jogador");
-                
-                int respostaCorreta = R.id.rdbQuestao01RespostaC;
+                int respostaCorreta = func.obterRespostaCorreta("questao-01");
                 int opcaoSelecionada = rgpPergunta1.getCheckedRadioButtonId();
 
-                if (opcaoSelecionada == respostaCorreta) {
-                    jogador.setAcertos(1);
+                if (respostaCorreta != -1) {
+                    if (opcaoSelecionada == respostaCorreta) {
+                        jogador.setAcertos(1);
 
-                    Intent telaPergunta2 = new Intent(TelaPergunta1.this, TelaPergunta2.class);
-                    telaPergunta2.putExtra("jogador", jogador);
+                        func.irPara(TelaPergunta1.this, TelaPergunta2.class, jogador);
+                    }
 
-                    /*startActivity(telaPergunta2);*/
-                } else {
-                    Intent telaPergunta2 = new Intent(TelaPergunta1.this, TelaPergunta2.class);
-                    telaPergunta2.putExtra("jogador", jogador);
-
-                    /*startActivity(telaPergunta2);*/
+                    func.irPara(TelaPergunta1.this, TelaPergunta2.class, jogador);
                 }
-
-                txt.setText(jogador.getNome() + jogador.getAcertos());
             }
         });
 

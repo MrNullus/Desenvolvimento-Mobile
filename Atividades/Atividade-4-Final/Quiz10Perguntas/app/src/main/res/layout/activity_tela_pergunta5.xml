@@ -6,15 +6,26 @@
     android:layout_height="match_parent"
     tools:context=".TelaPergunta10">
 
+    <TextView
+        android:id="@+id/txtNomeJogador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="TextView"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.858"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="398dp"
-        android:layout_height="211dp"
-        android:layout_marginTop="44dp"
+        android:layout_width="313dp"
+        android:layout_height="139dp"
+        android:layout_marginTop="76dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNomeJogador"
         app:srcCompat="@drawable/pergunta_5" />
 
     <TextView
@@ -24,7 +35,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/str.questao_05"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.423"
+        app:layout_constraintHorizontal_bias="0.391"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView7" />
 
@@ -32,8 +43,9 @@
         android:id="@+id/rgpPergunta5"
         android:layout_width="319dp"
         android:layout_height="251dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.423"
+        app:layout_constraintHorizontal_bias="0.391"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8">
 
@@ -70,4 +82,5 @@
             app:backgroundTint="@color/yellow" />
 
     </RadioGroup>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

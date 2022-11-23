@@ -6,10 +6,34 @@
     android:layout_height="match_parent"
     tools:context=".TelaPergunta6">
 
+    <TextView
+        android:id="@+id/txtNomeJogador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="TextView"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.849"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="398dp"
+        android:layout_height="211dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNomeJogador"
+        app:srcCompat="@drawable/pergunta_9" />
+
     <RadioGroup
         android:id="@+id/rgpPergunta9"
         android:layout_width="319dp"
         android:layout_height="251dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.423"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,25 +73,15 @@
 
     </RadioGroup>
 
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="398dp"
-        android:layout_height="211dp"
-        android:layout_marginTop="44dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.461"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/pergunta_9" />
-
     <TextView
         android:id="@+id/textView10"
         android:layout_width="319dp"
         android:layout_height="49dp"
-        android:layout_marginTop="288dp"
+        android:layout_marginTop="340dp"
         android:text="@string/str.questao_09"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.423"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,7 +6,7 @@ import android.os.Parcelable;
 import android.widget.EditText;
 
 
-public class Funcoes {
+public class Funcoes  {
 
     protected void irPara(Activity atualActivity, Class activityDestino, Parcelable parametro) {
         Intent destino = new Intent(atualActivity, activityDestino);
