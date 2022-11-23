@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class TelaPergunta2 extends AppCompatActivity {
 
@@ -24,7 +25,7 @@ public class TelaPergunta2 extends AppCompatActivity {
 
         txtNomeJogador = findViewById(R.id.txtNomeJogador);
         rgpPergunta2 = findViewById(R.id.rgpPergunta2);
-        btnAvancar   = findViewById(R.id.btnAvancar);
+        btnAvancar = findViewById(R.id.btnAvancar);
 
         Jogador jogador = getIntent().getExtras().getParcelable("jogador");
         txtNomeJogador.setText(jogador.getNome());
@@ -36,13 +37,18 @@ public class TelaPergunta2 extends AppCompatActivity {
                 int respostaCorreta = func.obterRespostaCorreta("questao-02");
                 int opcaoSelecionada = rgpPergunta2.getCheckedRadioButtonId();
 
-                if (opcaoSelecionada == respostaCorreta) {
-                    jogador.setAcertos(1);
-                }
+                if (opcaoSelecionada == -1) {
+                    String text = "Por favor, escolha uma alternativa";
+                    Toast.makeText(TelaPergunta2.this, text, Toast.LENGTH_SHORT).show();
+                } else {
+                    if (opcaoSelecionada == respostaCorreta) {
+                        jogador.setAcertos(1);
+                    }
 
-                func.irPara(TelaPergunta2.this, TelaPergunta3.class, jogador);
+                    func.irPara(TelaPergunta2.this, TelaPergunta3.class, jogador);
+                }
             }
         });
-        
+
     }
 }

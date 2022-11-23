@@ -36,11 +36,13 @@ public class TelaPergunta4 extends AppCompatActivity {
                 int respostaCorreta = func.obterRespostaCorreta("questao-04");
                 int opcaoSelecionada = rgpPergunta4.getCheckedRadioButtonId();
 
-                if (opcaoSelecionada == respostaCorreta) {
-                    jogador.setAcertos(1);
-                }
+                if (respostaCorreta != -1) {
+                    if (opcaoSelecionada == respostaCorreta) {
+                        jogador.setAcertos(1);
+                    }
 
-                func.irPara(TelaPergunta4.this, TelaPergunta5.class, jogador);
+                    func.irPara(TelaPergunta4.this, TelaPergunta5.class, jogador);
+                }
             }
         });
         
