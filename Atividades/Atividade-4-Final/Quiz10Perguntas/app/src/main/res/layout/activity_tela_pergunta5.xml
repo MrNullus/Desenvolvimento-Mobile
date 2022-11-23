@@ -21,52 +21,53 @@
         android:id="@+id/textView8"
         android:layout_width="319dp"
         android:layout_height="49dp"
-        android:layout_marginTop="284dp"
+        android:layout_marginTop="20dp"
         android:text="@string/str.questao_05"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.423"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
 
     <RadioGroup
-        android:id="@+id/rgpPergunta10"
+        android:id="@+id/rgpPergunta5"
         android:layout_width="319dp"
         android:layout_height="251dp"
-        android:layout_marginTop="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.423"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8">
 
         <RadioButton
-            android:id="@+id/rdbQuestao01RespostaA"
+            android:id="@+id/rdbQuestao05RespostaA"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/str.questao_04.resposta_a" />
+            android:text="@string/str.questao_05.resposta_a" />
 
         <RadioButton
-            android:id="@+id/rdbQuestao01RespostaB"
+            android:id="@+id/rdbQuestao05RespostaB"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/str.questao_04.resposta_b" />
+            android:text="@string/str.questao_05.resposta_b" />
 
         <RadioButton
-            android:id="@+id/rdbQuestao01RespostaC"
+            android:id="@+id/rdbQuestao05RespostaC"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/str.questao_04.resposta_c" />
+            android:text="@string/str.questao_05.resposta_c" />
 
         <RadioButton
-            android:id="@+id/rdbQuestao01RespostaD"
+            android:id="@+id/rdbQuestao05RespostaD"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/str.questao_04.resposta_d" />
+            android:text="@string/str.questao_05.resposta_d" />
 
         <Button
             android:id="@+id/button3"
             android:layout_width="match_parent"
             android:layout_height="62dp"
-            android:text="@string/str.btn_avancar" />
+            android:text="@string/str.btn_avancar"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/yellow" />
 
     </RadioGroup>
 </androidx.constraintlayout.widget.ConstraintLayout>

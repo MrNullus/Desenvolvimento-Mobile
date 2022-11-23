@@ -7,6 +7,7 @@
     <string name="str.btn_iniciar">Start!</string>
     <string name="str.btn_restart">Restart!</string>
     <string name="str.btn_avancar">&gt;&gt;</string>
+    <string name="str.btn_sair">Sair</string>
     <string name="str.hint.edt_nome">Tafarel</string>
     <string name="str.hint.edt_pontuacao">Pontuação...</string>
     <string name="str.mensagem_final">Parabéns, por chegar até aqui, isso prova muita coisa!</string>
@@ -97,12 +98,12 @@
     <!--  / Pergunta 9  -->
 
     <!--   Pergunta 10  -->
-    <string name="str.questao_10">Questão 10 - Complete a frase: "Quando estiver vendo TV, eu vou estar lá..."</string>
+    <string name="str.questao_10">Questão 10 - Complete a frase: Quando estiver vendo TV, eu vou estar lá...</string>
 
-    <string name="str.questao_10.resposta_a">"Se eu não comprar nada, o desconto é bem maior"</string>
-    <string name="str.questao_10.resposta_b">"e essa fanta é Doly"</string>
-    <string name="str.questao_10.resposta_c">"Quando estiver sonhando, eu vou estar lá.”</string>
-    <string name="str.questao_10.resposta_d">"Goku sola"</string>
+    <string name="str.questao_10.resposta_a">Se eu não comprar nada, o desconto é bem maior</string>
+    <string name="str.questao_10.resposta_b">e essa fanta é Doly</string>
+    <string name="str.questao_10.resposta_c">Quando estiver sonhando, eu vou estar lá.</string>
+    <string name="str.questao_10.resposta_d">Goku sola</string>
     <!--  / Pergunta 10  -->
 
 </resources>

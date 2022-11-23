@@ -2,7 +2,6 @@ package com.example.quiz10perguntas;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -29,7 +28,7 @@ public class TelaPergunta1 extends AppCompatActivity {
 
                 Jogador jogador = getIntent().getExtras().getParcelable("jogador");
                 
-                int respostaCorreta = R.id.rdbQuestao01RespostaC;
+                int respostaCorreta = R.id.rdbQuestao03RespostaC;
                 int opcaoSelecionada = rgpPergunta1.getCheckedRadioButtonId();
 
                 if (opcaoSelecionada == respostaCorreta) {

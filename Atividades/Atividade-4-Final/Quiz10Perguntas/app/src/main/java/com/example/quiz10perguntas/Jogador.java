@@ -1,41 +1,24 @@
 package com.example.quiz10perguntas;
 
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 public class Jogador implements Parcelable {
 
-	private final String nome;
-	private final int acertos;
-	
-	
-    public Customer(String nome, int acertos) {
-        this.nome    = nome;
-		this.acertos = acertos;
+    private final String nome;
+    private int acertos;
+
+
+    public Jogador(String nome, int acertos) {
+        this.nome = nome;
+        this.acertos = acertos;
     }
-	
-	public String getNome() {
-		this.nome;
-	}
-	public int getAcertos() {
-		this.acertos;
-	}
-	public int setAcertos(int acertos) {
-		this.acertos += acertos;
-	}
-	
-	
-	/* 
-		Metodos do Parcelable
-	*/
-	public static final Parcelable.Creator CREATOR = new Parcelable.Creator() {
-        public LeadData createFromParcel(Parcel in ) {
-            return new Customer( in );
-        }
 
-        public Customer[] newArray(int size) {
-            return new Customer[size];
-        }
-    };
-
+    protected Jogador(Parcel in) {
+        nome = in.readString();
+        acertos = in.readInt();
+    }
 
     @Override
     public void writeToParcel(Parcel dest, int flags) {
@@ -43,9 +26,33 @@ public class Jogador implements Parcelable {
         dest.writeInt(acertos);
     }
 
-    private void readFromParcel(Parcel in ) {
-        nome    = in .readString();
-        acertos = in .readInt();
+    @Override
+    public int describeContents() {
+        return 0;
     }
-	
+
+    public static final Creator<Jogador> CREATOR = new Creator<Jogador>() {
+        @Override
+        public Jogador createFromParcel(Parcel in) {
+            return new Jogador(in);
+        }
+
+        @Override
+        public Jogador[] newArray(int size) {
+            return new Jogador[size];
+        }
+    };
+
+    public String getNome() {
+        return this.nome;
+    }
+
+    public int getAcertos() {
+        return this.acertos;
+    }
+
+    public void setAcertos(int acertos) {
+        this.acertos += acertos;
+    }
+
 }

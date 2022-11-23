@@ -13,7 +13,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.423"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="356dp">
+        app:layout_constraintTop_toBottomOf="@+id/textView10">
 
         <RadioButton
             android:id="@+id/rdbQuestao09RespostaA"
@@ -43,7 +43,9 @@
             android:id="@+id/btnAvancar"
             android:layout_width="match_parent"
             android:layout_height="62dp"
-            android:text="@string/str.btn_avancar" />
+            android:text="@string/str.btn_avancar"
+            app:backgroundTint="@color/yellow"
+            tools:textColor="@color/black" />
 
     </RadioGroup>
 
@@ -64,7 +66,6 @@
         android:layout_height="49dp"
         android:layout_marginTop="288dp"
         android:text="@string/str.questao_09"
-        app:layout_constraintBottom_toTopOf="@+id/rgpPergunta9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.423"
         app:layout_constraintStart_toStartOf="parent"

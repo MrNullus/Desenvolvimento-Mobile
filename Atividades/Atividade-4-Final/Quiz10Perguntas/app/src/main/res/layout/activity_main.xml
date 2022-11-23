@@ -12,6 +12,8 @@
         android:layout_height="59dp"
         android:layout_marginTop="40dp"
         android:text="@string/str.btn_iniciar"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/teal_700"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.44"
         app:layout_constraintStart_toStartOf="parent"

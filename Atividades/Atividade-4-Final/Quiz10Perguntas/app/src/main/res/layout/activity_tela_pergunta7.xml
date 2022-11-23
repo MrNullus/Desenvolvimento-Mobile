@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rdbQuestao07RespostaA"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".TelaPergunta6">
@@ -43,7 +44,9 @@
             android:id="@+id/btnAvancar"
             android:layout_width="match_parent"
             android:layout_height="62dp"
-            android:text="@string/str.btn_avancar" />
+            android:text="@string/str.btn_avancar"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/yellow" />
 
     </RadioGroup>
 

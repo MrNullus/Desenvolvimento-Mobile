@@ -32,24 +32,21 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 if (func.pegarTextoDaEdt(edtNome).isEmpty()) {
-                    
+
                     edtNome.setError("O campo nome é obrigatório!");
                     edtNome.requestFocus();
-                    
+
                 } else {
-                    
-                    Intent telaPergunta1  = new Intent(MainActivity.this, TelaPergunta1.class);
                     String nome = func.pegarTextoDaEdt(edtNome);
-                    
+
                     Jogador jogador = new Jogador(nome, 0);
-                    telaPergunta1.putExtra("jogador", jogador);
 
                     func.irPara(
                         MainActivity.this,
                         TelaPergunta1.class,
                         jogador
                     );
-                    
+
                 }
             }
 
