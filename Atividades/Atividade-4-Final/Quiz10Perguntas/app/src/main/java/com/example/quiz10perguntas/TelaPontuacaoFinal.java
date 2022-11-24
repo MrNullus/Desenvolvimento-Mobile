@@ -36,7 +36,14 @@ public class TelaPontuacaoFinal extends AppCompatActivity {
             public void onClick(View view) {
                 func.irPara(TelaPontuacaoFinal.this, MainActivity.class, new Jogador());
             }
-        }
+        });
+
+        btnSair.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
 
     }
 }

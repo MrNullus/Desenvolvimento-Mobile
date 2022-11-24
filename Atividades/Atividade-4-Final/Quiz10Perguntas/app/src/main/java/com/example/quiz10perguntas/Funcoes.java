@@ -3,10 +3,28 @@ package com.example.quiz10perguntas;
 import android.content.Intent;
 import android.app.Activity;
 import android.os.Parcelable;
+import android.widget.RadioGroup;
 import android.widget.EditText;
+import android.widget.Toast;
 
 
 public class Funcoes  {
+    
+    protected void manipularClick(RadioGroup radioGroup, String questao, Jogador jogador, Activity atualActivity, Class activityDestino) {
+        int respostaCorreta = func.obterRespostaCorreta(questao);
+        int opcaoSelecionada = radioGroup.getCheckedRadioButtonId();
+
+        if (opcaoSelecionada == -1) {
+            String text = "Por favor, escolha uma alternativa";
+            Toast.makeText(atualActivity, text, Toast.LENGTH_SHORT).show();
+        } else {
+            if (opcaoSelecionada == respostaCorreta) {
+                jogador.setAcertos(1);
+            }
+
+            this.irPara(atualActivity, activityDestino, jogador);
+        }
+    }
 
     protected void irPara(Activity atualActivity, Class activityDestino, Parcelable parametro) {
         Intent destino = new Intent(atualActivity, activityDestino);

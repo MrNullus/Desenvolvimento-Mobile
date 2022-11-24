@@ -34,12 +34,13 @@ public class TelaPergunta7 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Jogador jogador = getIntent().getExtras().getParcelable("jogador");
-
                 int respostaCorreta  = func.obterRespostaCorreta("questao-07");
                 int opcaoSelecionada = rgpPergunta7.getCheckedRadioButtonId();
 
-                if (respostaCorreta != -1) {
+                if (opcaoSelecionada == -1) {
+                    String text = "Por favor, escolha uma alternativa";
+                    Toast.makeText(TelaPergunta7.this, text, Toast.LENGTH_SHORT).show();
+                } else {
                     if (opcaoSelecionada == respostaCorreta) {
                         jogador.setAcertos(1);
                     }

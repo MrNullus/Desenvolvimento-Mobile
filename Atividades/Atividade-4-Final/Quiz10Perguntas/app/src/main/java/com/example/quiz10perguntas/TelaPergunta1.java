@@ -28,27 +28,31 @@ public class TelaPergunta1 extends AppCompatActivity {
 
         Jogador jogador = getIntent().getExtras().getParcelable("jogador");
         txtNomeJogador.setText(jogador.getNome());
-        /*
-        * TODO:
-        *  - Validar se o usuario pressionou algum radio button, para só então ir para outra telau sando
-        *  if (respostaCorreta != -1)
-        * */
 
         btnAvancar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int respostaCorreta = func.obterRespostaCorreta("questao-01");
-                int opcaoSelecionada = rgpPergunta1.getCheckedRadioButtonId();
+                func.manipularClick(
+                    rgpPergunta1, // radio group
+                    "questao-01", // questão a se obter a resposta
+                    jogador, // objeto do jogador
+                    TelaPergunta1.class, // activity atual
+                    TelaPergunta2.class  // activity de destino                    
+                );
 
-                if (respostaCorreta != -1) {
-                    if (opcaoSelecionada == respostaCorreta) {
-                        jogador.setAcertos(1);
+                // int respostaCorreta = func.obterRespostaCorreta("questao-01");
+                // int opcaoSelecionada = rgpPergunta1.getCheckedRadioButtonId();
 
-                        func.irPara(TelaPergunta1.this, TelaPergunta2.class, jogador);
-                    }
+                // if (opcaoSelecionada == -1) {
+                //     String text = "Por favor, escolha uma alternativa";
+                //     Toast.makeText(TelaPergunta2.this, text, Toast.LENGTH_SHORT).show();
+                // } else {
+                //     if (opcaoSelecionada == respostaCorreta) {
+                //         jogador.setAcertos(1);
+                //     }
 
-                    func.irPara(TelaPergunta1.this, TelaPergunta2.class, jogador);
-                }
+                //     func.irPara(TelaPergunta1.this, TelaPergunta2.class, jogador);
+                // }
             }
         });
 
