@@ -33,6 +33,13 @@ public class TelaPergunta10 extends AppCompatActivity {
         btnAvancar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                // func.manipularClick(
+                //     rgpPergunta10, // radio group
+                //     "questao-10", // questão a se obter a resposta
+                //     jogador, // objeto do jogador
+                //     TelaPergunta10.class, // activity atual
+                //     TelaPontuacaoFinal.class  // activity de destino                    
+                // );
 
                 int respostaCorreta  = func.obterRespostaCorreta("questao-10");
                 int opcaoSelecionada = rgpPergunta10.getCheckedRadioButtonId();
@@ -45,7 +52,7 @@ public class TelaPergunta10 extends AppCompatActivity {
                         jogador.setAcertos(1);
                     }
 
-                    func.irPara(TelaPergunta9.this, TelaPergunta10.class, jogador);
+                    func.irPara(TelaPergunta10.this, TelaPontuacaoFinal.class, jogador);
                 }
             }
         });

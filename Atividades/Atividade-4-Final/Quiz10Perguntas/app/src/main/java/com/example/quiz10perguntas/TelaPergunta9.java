@@ -33,6 +33,13 @@ public class TelaPergunta9 extends AppCompatActivity {
         btnAvancar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                // func.manipularClick(
+                //     rgpPergunta9, // radio group
+                //     "questao-09", // questão a se obter a resposta
+                //     jogador, // objeto do jogador
+                //     TelaPergunta9.class, // actisvity atual
+                //     TelaPergunta10.class  // activity de destino                    
+                // );
 
                 int respostaCorreta  = func.obterRespostaCorreta("questao-09");
                 int opcaoSelecionada = rgpPergunta9.getCheckedRadioButtonId();
