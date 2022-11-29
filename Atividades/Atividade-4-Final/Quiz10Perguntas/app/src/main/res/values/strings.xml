@@ -31,7 +31,7 @@
     <string name="str.questao_02.resposta_a">1 e meia</string>
     <string name="str.questao_02.resposta_b">1</string>
     <string name="str.questao_02.resposta_c">2</string>
-    <string name="str.questao_02.resposta_d">3</string>
+    <string name="str.questao_02.resposta_d">3/4</string>
     <!--  / Pergunta 2  -->
 
     <!--   Pergunta 3  -->
@@ -40,7 +40,7 @@
     <string name="str.questao_03.resposta_a">Markinhos Zeca</string>
     <string name="str.questao_03.resposta_b">Stefano Jobs</string>
     <string name="str.questao_03.resposta_c">Taffareel e Ronaldo Fenômeno depois que venceu do Vasco</string>
-    <string name="str.questao_03.resposta_d">Bill Gates e Paul Alen</string>
+    <string name="str.questao_03.resposta_d">Bill Gates e Paul Allen</string>
     <!--  / Pergunta 3  -->
 
     <!--   Pergunta 4  -->
@@ -57,7 +57,7 @@
 
     <string name="str.questao_05.resposta_a">Sim</string>
     <string name="str.questao_05.resposta_b">Não sei</string>
-    <string name="str.questao_05.resposta_c">Pergunta lá no Posto Ibiranga</string>
+    <string name="str.questao_05.resposta_c">Pergunta lá no Posto Ipiranga</string>
     <string name="str.questao_05.resposta_d">Porque dentro do recipiente não há umidade</string>
     <!--  / Pergunta 5  -->
 
