@@ -4,8 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Button;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class TelaPontuacaoFinal extends AppCompatActivity {
@@ -19,6 +19,7 @@ public class TelaPontuacaoFinal extends AppCompatActivity {
 
     TextView txtMensagemFinal;
     Button   btnRestart;
+    Button   btnSair;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +27,10 @@ public class TelaPontuacaoFinal extends AppCompatActivity {
         setContentView(R.layout.activity_tela_pontuacao_final);
 
         txtMensagemFinal = findViewById(R.id.txtMensagemFinal);
+        btnRestart = findViewById(R.id.btnRestart);
+        btnSair    = findViewById(R.id.btnSair);
+
+        Jogador jogador = getIntent().getExtras().getParcelable("jogador");
 
         String mensagemFinal = "Parabéns! " + jogador.getNome() + " você teve uma pontuação de: " + jogador.getAcertos();
         txtMensagemFinal.setText(mensagemFinal);
@@ -34,7 +39,7 @@ public class TelaPontuacaoFinal extends AppCompatActivity {
         btnRestart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                func.irPara(TelaPontuacaoFinal.this, MainActivity.class, new Jogador());
+                func.irPara(TelaPontuacaoFinal.this, MainActivity.class, new Jogador("", 0));
             }
         });
 

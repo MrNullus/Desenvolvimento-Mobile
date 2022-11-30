@@ -36,8 +36,8 @@ public class TelaPergunta1 extends AppCompatActivity {
                     rgpPergunta1, // radio group
                     "questao-01", // questão a se obter a resposta
                     jogador, // objeto do jogador
-                    TelaPergunta1.class, // activity atual
-                    TelaPergunta2.class  // activity de destino                    
+                    TelaPergunta1.this, // activity atual
+                    TelaPergunta2.class  // activity de destino
                 );
 
                 // int respostaCorreta = func.obterRespostaCorreta("questao-01");

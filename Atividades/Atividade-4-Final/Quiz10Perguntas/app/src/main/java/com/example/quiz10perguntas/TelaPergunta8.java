@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class TelaPergunta8 extends AppCompatActivity {
 
@@ -42,7 +43,7 @@ public class TelaPergunta8 extends AppCompatActivity {
                 // );
 
                 int respostaCorreta  = func.obterRespostaCorreta("questao-08");
-                int opcaoSelecionada = rgpPergunta6.getCheckedRadioButtonId();
+                int opcaoSelecionada = rgpPergunta8.getCheckedRadioButtonId();
 
                 if (opcaoSelecionada == -1) {
                     String text = "Por favor, escolha uma alternativa";
