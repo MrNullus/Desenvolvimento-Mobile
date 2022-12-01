@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="TextView"
+        android:textColor="@color/material_dynamic_primary0"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.849"
@@ -23,17 +24,28 @@
         android:id="@+id/imageView9"
         android:layout_width="245dp"
         android:layout_height="174dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtNomeJogador"
         app:srcCompat="@drawable/pergunta_8" />
 
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="319dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="292dp"
+        android:text="@string/str.questao_08"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.423"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <RadioGroup
         android:id="@+id/rgpPergunta8"
         android:layout_width="319dp"
         android:layout_height="251dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.423"
         app:layout_constraintStart_toStartOf="parent"
@@ -73,14 +85,4 @@
 
     </RadioGroup>
 
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="319dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="320dp"
-        android:text="@string/str.questao_08"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.423"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

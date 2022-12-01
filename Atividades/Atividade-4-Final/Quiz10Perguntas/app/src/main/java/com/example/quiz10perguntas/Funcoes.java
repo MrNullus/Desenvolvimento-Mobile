@@ -26,7 +26,7 @@ public class Funcoes  {
             Toast.makeText(atualActivity, text, Toast.LENGTH_SHORT).show();
         } else {
             if (opcaoSelecionada == respostaCorreta) {
-                jogador.setAcertos(1);
+                jogador.setAcertos(obterAcertos(questao));
             }
 
             this.irPara(atualActivity, activityDestino, jogador);
@@ -36,7 +36,58 @@ public class Funcoes  {
     protected String pegarTextoDaEdt(EditText edt) {
         return edt.getText().toString();
     }
-    
+
+    private int obterAcertos(String questao) {
+        int acertos = 0;
+
+        switch(questao) {
+            case "questao-01":
+                acertos = 1;
+                break;
+
+            case "questao-02":
+                acertos = 2;
+                break;
+
+            case "questao-03":
+                acertos = 3;
+                break;
+
+            case "questao-04":
+                acertos = 4;
+                break;
+
+            case "questao-05":
+                acertos = 5;
+                break;
+
+            case "questao-06":
+                acertos = 6;
+                break;
+
+            case "questao-07":
+                acertos = 7;
+                break;
+
+            case "questao-08":
+                acertos = 8;
+                break;
+
+            case "questao-09":
+                acertos = 9;
+                break;
+
+            case "questao-10":
+                acertos = 10;
+                break;
+
+            default:
+                break;
+        }
+
+        return acertos;
+    }
+
     protected int obterRespostaCorreta(String questao) {
         int respostaCorreta;
 

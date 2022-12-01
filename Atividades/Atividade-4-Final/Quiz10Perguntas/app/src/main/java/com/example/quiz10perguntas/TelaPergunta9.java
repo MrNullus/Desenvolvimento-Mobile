@@ -34,27 +34,15 @@ public class TelaPergunta9 extends AppCompatActivity {
         btnAvancar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // func.manipularClick(
-                //     rgpPergunta9, // radio group
-                //     "questao-09", // questão a se obter a resposta
-                //     jogador, // objeto do jogador
-                //     TelaPergunta9.class, // actisvity atual
-                //     TelaPergunta10.class  // activity de destino                    
-                // );
 
-                int respostaCorreta  = func.obterRespostaCorreta("questao-09");
-                int opcaoSelecionada = rgpPergunta9.getCheckedRadioButtonId();
+                 func.manipularClick(
+                     rgpPergunta9, // radio group
+                     "questao-09", // questão a se obter a resposta
+                     jogador, // objeto do jogador
+                     TelaPergunta9.this, // actisvity atual
+                     TelaPergunta10.class  // activity de destino
+                 );
 
-                if (opcaoSelecionada == -1) {
-                    String text = "Por favor, escolha uma alternativa";
-                    Toast.makeText(TelaPergunta9.this, text, Toast.LENGTH_SHORT).show();
-                } else {
-                    if (opcaoSelecionada == respostaCorreta) {
-                        jogador.setAcertos(1);
-                    }
-
-                    func.irPara(TelaPergunta9.this, TelaPergunta10.class, jogador);
-                }
             }
         });
     }

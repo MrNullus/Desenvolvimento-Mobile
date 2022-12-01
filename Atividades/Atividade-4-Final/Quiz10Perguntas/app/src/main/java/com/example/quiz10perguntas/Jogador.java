@@ -52,7 +52,7 @@ public class Jogador implements Parcelable {
     }
 
     public void setAcertos(int acertos) {
-        this.acertos += acertos;
+        this.acertos = acertos;
     }
 
 }

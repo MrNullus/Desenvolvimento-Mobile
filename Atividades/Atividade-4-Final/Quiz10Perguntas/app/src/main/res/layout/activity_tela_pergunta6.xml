@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="TextView"
+        android:textColor="@color/material_dynamic_primary0"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.849"
@@ -65,11 +66,12 @@
         android:id="@+id/imageView8"
         android:layout_width="398dp"
         android:layout_height="211dp"
+        android:layout_marginTop="24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/pergunta_6"
-        tools:layout_editor_absoluteY="113dp" />
+        app:layout_constraintTop_toBottomOf="@+id/txtNomeJogador"
+        app:srcCompat="@drawable/pergunta_6" />
 
     <TextView
         android:id="@+id/textView8"

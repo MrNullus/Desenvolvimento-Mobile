@@ -10,19 +10,20 @@
         android:id="@+id/txtNomeJogador"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="40dp"
         android:text="TextView"
+        android:textColor="@color/material_dynamic_primary0"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.849"
+        app:layout_constraintHorizontal_bias="0.898"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="398dp"
-        android:layout_height="211dp"
-        android:layout_marginTop="56dp"
+        android:layout_width="374dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="28dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,7 +34,6 @@
         android:id="@+id/rgpPergunta9"
         android:layout_width="319dp"
         android:layout_height="251dp"
-        android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.423"
         app:layout_constraintStart_toStartOf="parent"
@@ -77,11 +77,11 @@
         android:id="@+id/textView10"
         android:layout_width="319dp"
         android:layout_height="49dp"
-        android:layout_marginTop="340dp"
+        android:layout_marginTop="8dp"
         android:text="@string/str.questao_09"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.423"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
