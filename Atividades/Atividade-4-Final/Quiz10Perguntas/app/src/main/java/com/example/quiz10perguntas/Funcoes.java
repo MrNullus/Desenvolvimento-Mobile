@@ -25,7 +25,9 @@ public class Funcoes  {
             Toast.makeText(atualActivity, text, Toast.LENGTH_SHORT).show();
         } else {
             if (opcaoSelecionada == respostaCorreta) {
-                jogador.setAcertos(obterAcertos(questao));
+                int acertosAtual = obterAcertos(questao);
+
+                jogador.setAcertos(acertosAtual);
             }
 
             this.irPara(atualActivity, activityDestino, jogador);
