@@ -47,7 +47,7 @@ public class TelaPontuacaoFinal extends AppCompatActivity {
         btnSair.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                finish();
+                finishAffinity();
             }
         });
 
