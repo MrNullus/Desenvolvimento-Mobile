@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="TextView"
-        android:textColor="@color/material_dynamic_primary0"
+        android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.849"
@@ -22,9 +22,9 @@
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="245dp"
-        android:layout_height="174dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="204dp"
+        android:layout_height="122dp"
+        android:layout_marginTop="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtNomeJogador"
@@ -34,12 +34,13 @@
         android:id="@+id/textView9"
         android:layout_width="319dp"
         android:layout_height="49dp"
-        android:layout_marginTop="292dp"
+        android:layout_marginTop="12dp"
         android:text="@string/str.questao_08"
+        android:textColor="@color/dark"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.423"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
 
     <RadioGroup
         android:id="@+id/rgpPergunta8"

@@ -7,7 +7,6 @@ import android.widget.RadioGroup;
 import android.widget.EditText;
 import android.widget.Toast;
 
-
 public class Funcoes  {
     protected void irPara(Activity atualActivity, Class activityDestino, Parcelable parametro) {
         Intent destino = new Intent(atualActivity, activityDestino);

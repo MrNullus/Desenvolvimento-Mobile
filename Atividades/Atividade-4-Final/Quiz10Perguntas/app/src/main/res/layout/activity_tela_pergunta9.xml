@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:text="TextView"
-        android:textColor="@color/material_dynamic_primary0"
+        android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.898"
@@ -21,11 +21,10 @@
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="374dp"
-        android:layout_height="180dp"
-        android:layout_marginTop="28dp"
+        android:layout_width="357dp"
+        android:layout_height="173dp"
+        android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtNomeJogador"
         app:srcCompat="@drawable/pergunta_9" />
@@ -76,9 +75,11 @@
     <TextView
         android:id="@+id/textView10"
         android:layout_width="319dp"
-        android:layout_height="49dp"
+        android:layout_height="29dp"
         android:layout_marginTop="8dp"
         android:text="@string/str.questao_09"
+        android:textColor="@color/dark"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.423"
         app:layout_constraintStart_toStartOf="parent"

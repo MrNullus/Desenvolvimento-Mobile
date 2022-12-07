@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="TextView"
-        android:textColor="@color/material_dynamic_primary0"
+        android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.849"
@@ -22,27 +22,27 @@
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="312dp"
-        android:layout_height="190dp"
-        android:layout_marginTop="36dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        android:layout_width="236dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="28dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtNomeJogador"
-        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/pergunta_7" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="319dp"
         android:layout_height="49dp"
-        android:layout_marginTop="272dp"
+        android:layout_marginTop="4dp"
         android:text="@string/str.questao_07"
+        android:textColor="@color/dark"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.391"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
 
     <RadioGroup
         android:id="@+id/rgpPergunta7"
