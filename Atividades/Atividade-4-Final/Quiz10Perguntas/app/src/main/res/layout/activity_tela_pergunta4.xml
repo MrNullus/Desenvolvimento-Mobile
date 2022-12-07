@@ -7,6 +7,17 @@
     tools:context=".TelaPergunta4">
 
     <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="41dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toStartOf="@+id/txtNomeJogador"
+        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
         android:id="@+id/imageView5"
         android:layout_width="398dp"
         android:layout_height="211dp"
