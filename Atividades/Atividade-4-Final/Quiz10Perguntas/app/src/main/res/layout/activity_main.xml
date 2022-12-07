@@ -8,8 +8,8 @@
 
     <Button
         android:id="@+id/btnIniciar"
-        android:layout_width="261dp"
-        android:layout_height="59dp"
+        android:layout_width="271dp"
+        android:layout_height="56dp"
         android:layout_marginTop="24dp"
         android:text="@string/str.btn_iniciar"
         android:textColor="@color/dark"
@@ -43,8 +43,8 @@
 
     <EditText
         android:id="@+id/edtNome"
-        android:layout_width="259dp"
-        android:layout_height="48dp"
+        android:layout_width="267dp"
+        android:layout_height="49dp"
         android:layout_marginTop="16dp"
         android:background="@color/black"
         android:capitalize="sentences"
