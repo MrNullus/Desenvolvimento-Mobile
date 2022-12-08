@@ -17,7 +17,7 @@ O Sol é de que cor?
 
 - [ ] Vermelho
 
-
+<br>
 
 Questão 2
 
@@ -31,7 +31,7 @@ O Saci tem quantas pernas?
 
 - [ ] 3
 
-
+<br>
 
 Questão 3
 
@@ -45,7 +45,7 @@ Quem criou a Microsoft?
 
 - [x] Bill Gates e Paul Alen
 
-
+<br>
 
 Questão 4
 
@@ -59,7 +59,7 @@ Quem roubou nosso ouro?
 
 - [ ] Vai saber
 
-
+<br>
 
 Questão 5
 
@@ -73,7 +73,7 @@ Se superbonde cola tudo, então porque não cola a tampa?
 
 - [X] Porque dentro do recipiente não há umidade
 
-
+<br>
 
 Questão 6
 
@@ -87,7 +87,7 @@ De onde é a invenção do chuveiro elétrico?
 
 - [ ] Portugal
 
-
+<br>
 
 Questão 7
 
@@ -101,7 +101,7 @@ Quanto tempo a luz do Sol demora para chegar à Terra?
 
 - [ ] 5s e um terço de reza
 
-
+<br>
 
 Questão 8
 
@@ -115,7 +115,7 @@ Qual o livro mais vendido no mundo depois da Bíblia?
 
 - [ ] One Piece
 
-
+<br>
 
 Questão 9
 
@@ -129,7 +129,7 @@ Quem é Alan Turing?
 
 - [X] Pai da Computação
 
-
+<br>
 
 Questão 10
 
