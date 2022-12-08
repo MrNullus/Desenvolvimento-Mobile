@@ -16,7 +16,7 @@ public class Funcoes  {
         atualActivity.startActivity(destino);
     }
 
-    protected void manipularClick(RadioGroup radioGroup, String questao, Jogador jogador, Activity atualActivity, Class activityDestino) {
+    protected void manipularClick(RadioGroup radioGroup, String questao, Jogador j, Activity atualActivity, Class activityDestino) {
         int respostaCorreta = this.obterRespostaCorreta(questao);
         int opcaoSelecionada = radioGroup.getCheckedRadioButtonId();
 
@@ -25,68 +25,17 @@ public class Funcoes  {
             Toast.makeText(atualActivity, text, Toast.LENGTH_SHORT).show();
         } else {
             if (opcaoSelecionada == respostaCorreta) {
-                int acertosAtual = obterAcertos(questao);
+                int acertosAtual = j.getAcertos() + 1;
 
-                jogador.setAcertos(acertosAtual);
+                j.setAcertos(acertosAtual);
             }
 
-            this.irPara(atualActivity, activityDestino, jogador);
+            this.irPara(atualActivity, activityDestino, j);
         }
     }
 
     protected String pegarTextoDaEdt(EditText edt) {
         return edt.getText().toString();
-    }
-
-    private int obterAcertos(String questao) {
-        int acertos = 0;
-
-        switch(questao) {
-            case "questao-01":
-                acertos = 1;
-                break;
-
-            case "questao-02":
-                acertos = 2;
-                break;
-
-            case "questao-03":
-                acertos = 3;
-                break;
-
-            case "questao-04":
-                acertos = 4;
-                break;
-
-            case "questao-05":
-                acertos = 5;
-                break;
-
-            case "questao-06":
-                acertos = 6;
-                break;
-
-            case "questao-07":
-                acertos = 7;
-                break;
-
-            case "questao-08":
-                acertos = 8;
-                break;
-
-            case "questao-09":
-                acertos = 9;
-                break;
-
-            case "questao-10":
-                acertos = 10;
-                break;
-
-            default:
-                break;
-        }
-
-        return acertos;
     }
 
     protected int obterRespostaCorreta(String questao) {
@@ -99,7 +48,7 @@ public class Funcoes  {
                 break;
                 
             case "questao-02":
-                respostaCorreta = R.id.rdbQuestao02RespostaA;
+                respostaCorreta = R.id.rdbQuestao02RespostaB;
                 break;
                 
             case "questao-03":
@@ -123,7 +72,7 @@ public class Funcoes  {
                 break;
                 
             case "questao-08":
-                respostaCorreta = R.id.rdbQuestao03RespostaC;
+                respostaCorreta = R.id.rdbQuestao08RespostaC;
                 break;
                 
             case "questao-09":
