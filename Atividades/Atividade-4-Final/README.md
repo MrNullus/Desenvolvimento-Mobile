@@ -1,145 +1,145 @@
-# Trabalho final do modulo Desenvolvimento Movel (Mobile)
+# Trabalho final do m√≥dulo Desenvolvimento Movel (Mobile)
 
 ## Quiz 10 Perguntas
 
 
-## Questıes:
+## Quest√µes:
 
-Quest„o 
+Quest√£o 1
 
-O Sol È de que cor?
+O Sol √© de que cor?
 
-[] Lilas
+- [ ] Lilas
 
-[] Amarelo
+- [ ] Amarelo
 
-[X] Branco 
+- [X] Branco 
 
-[] Vermelho
+- [ ] Vermelho
 
 
 
-Quest„o 2
+Quest√£o 2
 
 O Saci tem quantas pernas?
 
-[] 1 e meia
+- [ ] 1 e meia
 
-[X] 1
+- [X] 1
 
-[] 2
+- [ ] 2
 
-[] 3
+- [ ] 3
 
 
 
-Quest„o 3
+Quest√£o 3
 
 Quem criou a Microsoft?
 
-[] Markinhos Zeca
+- [ ] Markinhos Zeca
 
-[] Stefano Jobs
+- [ ] Stefano Jobs
 
-[] Taffareel e Ronaldo FenÙmeno depois que venceu do Vasco
+- [ ] Taffareel e Ronaldo Fen√¥meno depois que venceu do Vasco
 
-[X] Bill Gates e Paul Alen
+- [x] Bill Gates e Paul Alen
 
 
 
-Quest„o 4
+Quest√£o 4
 
 Quem roubou nosso ouro?
 
-[] Ingleses
+- [ ] Ingleses
 
-[] Argentinos
+- [ ] Argentinos
 
-[X] Portugas
+- [x] Portugas
 
-[] Vai saber
-
-
-
-Quest„o 5
-
-Se superbonde cola tudo, ent„o porque n„o cola a tampa?
-
-[] Sim
-
-[] N„o sei
-
-[] Pergunta l· no Posto Ibiranga
-
-[X] Porque dentro do recipiente n„o h· umidade
+- [ ] Vai saber
 
 
 
-Quest„o 6
+Quest√£o 5
 
-De onde È a invenÁ„o do chuveiro elÈtrico?
+Se superbonde cola tudo, ent√£o porque n√£o cola a tampa?
 
-[X] Brasil
+- [ ] Sim
 
-[] Alemanha
+- [ ] N√£o sei
 
-[] Gana
+- [ ] Pergunta l√° no Posto Ibiranga
 
-[] Portugal
-
-
-
-Quest„o 7
-
-Quanto tempo a luz do Sol demora para chegar ‡ Terra?
-
-[] 1h 
-
-[] 2 anos
-
-[X] 8min
-
-[] 5s e um terÁo de reza
+- [X] Porque dentro do recipiente n√£o h√° umidade
 
 
 
-Quest„o 8
+Quest√£o 6
 
-Qual o livro mais vendido no mundo depois da BÌblia?
+De onde √© a inven√ß√£o do chuveiro el√©trico?
 
-[] Dom Quixote
+- [X] Brasil
 
-[] Senhor dos Aneis
+- [ ] Alemanha
 
-[X] Biblia
+- [ ] Gana
 
-[] One Piece
-
-
-
-Quest„o 9
-
-Quem È Alan Turing?
-
-[] O carinha que mora logo ali
-
-[] O grande calvo as 15
-
-[] Pai do Renan
-
-[X] Pai da ComputaÁ„o
+- [ ] Portugal
 
 
 
-Quest„o 10
+Quest√£o 7
 
-Complete a frase: "Quando estiver vendo TV, eu vou estar l·..."
+Quanto tempo a luz do Sol demora para chegar √† Terra?
 
-[] "Se eu n„o comprar nada, o desconto È bem maior"
+- [ ] 1h 
 
-[] "e essa fanta È Doly"
+- [ ] 2 anos
 
-[X] "Quando estiver sonhando, eu vou estar l·.î
+- [X] 8min
 
-[] "Goku sola"
+- [ ] 5s e um ter√ßo de reza
+
+
+
+Quest√£o 8
+
+Qual o livro mais vendido no mundo depois da B√≠blia?
+
+- [ ] Dom Quixote
+
+- [ ] Senhor dos Aneis
+
+- [X] Biblia
+
+- [ ] One Piece
+
+
+
+Quest√£o 9
+
+Quem √© Alan Turing?
+
+- [ ] O carinha que mora logo ali
+
+- [ ] O grande calvo aos 15
+
+- [ ] Pai do Renan
+
+- [X] Pai da Computa√ß√£o
+
+
+
+Quest√£o 10
+
+Complete a frase: "Quando estiver vendo TV, eu vou estar l√°..."
+
+- [ ] "Se eu n√£o comprar nada, o desconto √© bem maior"
+
+- [ ] "e essa fanta √© Doly"
+
+- [X] "Quando estiver sonhando, eu vou estar l√°.‚Äù
+
+- [ ] "Goku sola"
 
