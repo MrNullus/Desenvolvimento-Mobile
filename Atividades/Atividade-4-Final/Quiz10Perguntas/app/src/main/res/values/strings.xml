@@ -38,7 +38,7 @@
 
     <string name="str.questao_03.resposta_a">Markinhos Zeca</string>
     <string name="str.questao_03.resposta_b">Stefano Jobs</string>
-    <string name="str.questao_03.resposta_c">Taffareel e Ronaldo Fenômeno depois que venceu do Vasco</string>
+    <string name="str.questao_03.resposta_c">Taffareel e Ronaldo Fenômeno depois que venceu o Vasco</string>
     <string name="str.questao_03.resposta_d">Bill Gates e Paul Allen</string>
     <!--  / Pergunta 3  -->
 
@@ -91,7 +91,7 @@
     <string name="str.questao_09">Questão 09 - Quem é Alan Turing?</string>
 
     <string name="str.questao_09.resposta_a">O carinha que mora logo ali</string>
-    <string name="str.questao_09.resposta_b">O grande calvo as 15</string>
+    <string name="str.questao_09.resposta_b">O grande calvo aos 15</string>
     <string name="str.questao_09.resposta_c">Pai do Renan</string>
     <string name="str.questao_09.resposta_d">Pai da Computação</string>
     <!--  / Pergunta 9  -->
@@ -100,7 +100,7 @@
     <string name="str.questao_10">Questão 10 - Complete a frase: Quando estiver vendo TV, eu vou estar lá...</string>
 
     <string name="str.questao_10.resposta_a">Se eu não comprar nada, o desconto é bem maior</string>
-    <string name="str.questao_10.resposta_b">e essa fanta é Doly</string>
+    <string name="str.questao_10.resposta_b">e essa Fanta é Doly</string>
     <string name="str.questao_10.resposta_c">Quando estiver sonhando, eu vou estar lá.</string>
     <string name="str.questao_10.resposta_d">Goku sola</string>
     <!--  / Pergunta 10  -->
