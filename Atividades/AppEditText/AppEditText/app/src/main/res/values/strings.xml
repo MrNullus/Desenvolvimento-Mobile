@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppEditText</string>
+    <string name="txt">Digite seu nome:</string>
+    <string name="txt.btn_enviar">Enviar</string>
+</resources>
